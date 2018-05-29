@@ -1,4 +1,4 @@
-node {
+node('jenkins-jnlp-auto') {
  	// Clean workspace before doing anything
     deleteDir()
 
