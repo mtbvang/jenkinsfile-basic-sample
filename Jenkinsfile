@@ -6,7 +6,6 @@ podTemplate(label: 'jenkins-jnlp-auto') {
         try {
             stage ('Clone') {
             	checkout scm
-							branch 'master' of https://github.com/mtbvang/jenkinsfile-basic-sample
             }
             stage ('Build') {
             	sh "echo 'shell scripts to build project...'"
